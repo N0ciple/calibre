@@ -11,7 +11,7 @@ from urllib2 import HTTPError
 class LeMonde(BasicNewsRecipe):
 
     title              = u'Le Monde'
-    __author__         = 'Sylvain Durand'
+    __author__         = u'Sylvain Durand'
     description        = u'La version papier du quotidien Le Monde, disponible du lundi au samedi à partir de 14 heures environ, avec tous ses cahiers.'
     language           = 'fr'
     encoding           = 'utf8'
